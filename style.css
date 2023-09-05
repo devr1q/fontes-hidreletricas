@@ -9,10 +9,12 @@
     --cor02: #49D49D;
     --corE: #0e4557;
     --corCtr: #F04FB3;
-    --corLis: #C19ED7;
+    --corLis: #a57fbde5;
 }
 
 body{
+    background-color: var(--corLis);
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
@@ -28,7 +30,7 @@ header > h1{
 nav{
     background-color: var(--corE);
     padding: 10px;
-    box-shadow: 5px 4px 10px black;
+    box-shadow: 5px 6px 10px black;
 }
 nav > a{
     color: var(--cor02);
@@ -42,12 +44,14 @@ nav > a:hover{
     transition-duration: 0.5s;
 }
 main{
+    background-color: var(--corE);
     min-width: 300px;
-    max-width: 700px;
+    max-width: 750px;
     margin: auto;
     padding: 30px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
-    border-radius: 5px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 main > h1{
     background-image: linear-gradient(to right, var(--corPd), transparent);
@@ -57,7 +61,7 @@ main > h1{
     text-indent: 2px;
 }
 main > h2{
-    background-color: var(--cor02);
+    background-image: linear-gradient(to right, var(--cor02), transparent);
     color: var(--corE);
     font-size: 1.25em;
     text-indent: 25px;
