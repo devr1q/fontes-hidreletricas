@@ -42,7 +42,6 @@ nav > a:hover{
     transition-duration: 0.5s;
 }
 main{
-    text-align: center;
     min-width: 300px;
     max-width: 700px;
     margin: auto;
@@ -51,11 +50,22 @@ main{
     border-radius: 5px;
 }
 main > h1{
-    margin-top: 20px;
+    background-image: linear-gradient(to right, var(--corPd), transparent);
+    color: var(--corE);
+    margin-top: 35px;
     font-size: 1.65em;
+    text-indent: 2px;
+}
+main > h2{
+    background-color: var(--cor02);
+    color: var(--corE);
+    font-size: 1.25em;
+    text-indent: 25px;
 }
 main > p{
     text-align: justify;
+    text-indent: 30px;
+    padding-top: 10px;
 }
 
 footer{
@@ -64,14 +74,15 @@ footer{
     margin-top: 100px;
 }
 footer > p{
+    text-align: center;
     padding: 7px;
     text-indent: 20px;
     color: rgba(0, 0, 0, 0.763);
 }
 footer > ul{
+    text-align: center;
     color: black;
     list-style-position: inside;
-    padding-left: 15px;
     padding-bottom: 10px;
     columns: 2;
 }
