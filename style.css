@@ -75,7 +75,7 @@ main > p{
 footer{
     background-image: linear-gradient(to bottom, var(--corE), var(--cor02));
     font-size: 0.9em;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 footer > p{
     text-align: center;
