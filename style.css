@@ -45,8 +45,8 @@ nav > a:hover{
 }
 main{
     background-color: var(--corE);
-    min-width: 300px;
-    max-width: 750px;
+    min-width: 350px;
+    max-width: 950px;
     margin: auto;
     padding: 30px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
@@ -69,7 +69,26 @@ main > h2{
 main > p{
     text-align: justify;
     text-indent: 30px;
-    padding-top: 10px;
+    line-height: 1.6em;
+    padding-top: 20px;
+}
+main > ul{
+    list-style-position: inside;
+    text-indent: 10px;
+}
+main > img{
+    width: 100%;
+    max-width: 630px;
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+p.exp{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 0.9em;
+    padding-bottom: 5px;
 }
 
 footer{
