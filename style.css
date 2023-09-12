@@ -45,7 +45,7 @@ nav > a:hover{
 }
 main{
     background-color: var(--corE);
-    min-width: 350px;
+    min-width: 300px;
     max-width: 950px;
     margin: auto;
     padding: 30px;
@@ -88,6 +88,7 @@ p.exp{
     font-weight: lighter;
     font-size: 0.9em;
     padding-bottom: 10px;
+    padding-right: 30px;
 }
 
 footer{
